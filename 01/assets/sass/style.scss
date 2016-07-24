@@ -1,0 +1,60 @@
+
+$buttonColor:#29c2e1;
+$colorImag:#8d8d8d;
+$grayText:#99a7ac;
+
+body{
+	weight:1170px;
+	
+
+}
+.container{
+	width:1170px;
+	padding:0 15 0 15px;	
+	
+
+}	
+
+#header{
+	background-color:#e5eef0;	
+
+	.row{
+		height:50px;
+		div{
+			height: 50px;
+			color:$grayText;
+			line-height:40px;
+			text-size:13px;
+			
+			&:nth-child(2){
+				border-right: 1px solid #d8e3e6;
+				padding-left:40px;
+
+			}
+			&:hover{
+				color:$buttonColor;
+			}
+		}
+	}
+
+}
+
+#menu{
+	.col-md-2{
+		width:360px;
+		border:1 px solid gray;
+		height:50px;
+	}
+
+}
+
+#end{
+
+	height:107px;
+	border:1px solid red;
+	line-height:50px;
+	color:$grayText;
+	text-size:14px;
+	text-transform:uppercase;
+}
+
