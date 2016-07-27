@@ -8,18 +8,18 @@ $blackTectCol:#23282f;
 
 body{
 	weight:1170px;
-	
+
 
 }
 .container{
 	width:1170px;
-	padding:0 15 0 15px;	
-	
+	padding:0 15 0 15px;
 
-}	
+
+}
 
 #header{
-	background-color:$borderCol;	
+	background-color:$borderCol;
 
 	.row{
 		height:50px;
@@ -27,8 +27,8 @@ body{
 			height: 50px;
 			color:$grayText;
 			line-height:40px;
-			text-size:13px;
-			
+			font-size:13px;
+
 			&:nth-child(2){
 				border-right: 1px solid #d8e3e6;
 				padding-left:40px;
@@ -44,25 +44,40 @@ body{
 
 #menu{
 	padding-top:20px;
-	padding-bottom:23px; 
-	background-color:yellow;
+	padding-bottom:23px;
 
-	.col-md-2{
-		
-		border:1 px solid gray;
 
-		
+	.leftMargin{
+	//	margin-left: 10px !important;
+			ul{
+				float:right;
+			}
+			font-size:20px;
+			//ne rabotayet.
+			border-style: hidden;
+			.bold{
+				font-weight: bold;
+				color:$blackTectCol;
 
+
+			}
+
+			.blue a{
+				width:150px;
+				border:1px solid white;
+				border-radius:30px;
+				background-color:$buttonColor;
+				text-align: center;
+
+
+			}
 	}
-	ul{
-		float:left;;
-	}
-	a{	
-		
+
+	a{
+		border-style:hidden;
 		color:#a1aeb3;
 		&:hover{
 			color:darken(#a1aeb3,50%);
-			text-size:14px;//ne rabotayet.
 
 		}
 	}
@@ -96,9 +111,9 @@ body{
 
 	}
 
-	
+
 .input-group {
-	
+
 	span{
 		background-color:$buttonColor;
 		color:white;
@@ -116,10 +131,10 @@ li{
 
 	p{
 		color:#23282f;
-		text-size:18px;
+		font-size:18px;
 	}
 a {
-	
+
 	color:$grayText;
 	padding-left:0px;
 	&:hover{
@@ -141,16 +156,16 @@ a {
 #leaveCom{
 	border:1px solid $borderCol;
 	height:602px;
-	
+
 	p{
 		color:$blackTectCol;
-		text-size:24px;//ne rabotayet ?
+		font-size:24px;//ne rabotayet ?
 		margin-top: 100px;
 	}
 //we start inputs
 
 input{
-	
+
 	height:48px;
 	width:404px;
 	display:inline-block;
@@ -166,7 +181,7 @@ input{
 	width:822px;
 	height:160px;
 	padding-left:28px;
-	
+
 }
 button{
 	width:140px;
@@ -174,7 +189,7 @@ button{
 	border-radius:20px;
 	background-color:$buttonColor;
 	color:white;
-	text-size:14.5px;//ne beret?
+	font-size:14.5px;
 	margin-top:20px;
 
 }
@@ -183,17 +198,17 @@ button{
 //8 Comments
 
 #comment8 {
-	
+
 	height:803px;
-	
+
 	.row{
 		margin-top: 72px;
 		.text-left{
-			
-			font-weight: bold;	
-			text-size:24px;//ne rabotayet
+
+			font-weight: bold;
+			font-size:24px;
 			margin-bottom: 41px;
-		
+
 		}
 		.another{
 			margin-left:98px;
@@ -223,22 +238,57 @@ button{
 		margin-right:30px;
 	}
 }
+
 // midle section
 #midle{
-	
+
 	height:1320px;
 	background-color:pink;
 	.first{
 		margin-top:100px;
 	.image{
 		height: 334px;
-		weight:824px;
+		weight:828px;
 		background-color:$colorImag;
 		color: white;
 		text-align:center;
-		text-size:30px;
-		
+		font-size:14px;
+	}
+.input-group{
 
-	}}
+	input{
+		width:225px;
+		height:44px;
+
+	}
+
+	}
+.kategoriya{
+	margin-top: 50px;
+	i{
+		float:right	;
+	}
+}}
+
+	.third{
+		width:848px;
+		height:192px;
+		background-color:#e3eef0;
+		margin-bottom:50px;
+		img{
+			width:122px;
+			height: 122px;
+			background-color:#8d8d8d;
+			margin-top:35px;
+		}
+	}
+}
+
+#post{
+
+
+	background-color:$colorImag;
+	height: 310px;
+
 
 }
