@@ -52,9 +52,9 @@ body{
 			ul{
 				float:right;
 			}
-			font-size:20px;
-			//ne rabotayet.
-			border-style: hidden;
+			font-size:14px;
+			
+			border-style: hidden;//!
 			.bold{
 				font-weight: bold;
 				color:$blackTectCol;
@@ -63,8 +63,8 @@ body{
 			}
 
 			.blue a{
-				width:150px;
-				border:1px solid white;
+				width:140px;
+				color: white;
 				border-radius:30px;
 				background-color:$buttonColor;
 				text-align: center;
@@ -84,6 +84,8 @@ body{
 
 }
 
+
+//we started footer
 #end{
 
 	height:107px;
