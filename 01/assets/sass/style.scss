@@ -44,7 +44,7 @@ body{
 
 #menu{
 	padding-top:20px;
-	padding-bottom:23px;
+	padding-bottom:20px;
 
 
 	.leftMargin{
@@ -266,11 +266,41 @@ button{
 
 	}
 .kategoriya{
-	margin-top: 50px;
-	i{
-		float:right	;
+	margin-top: 20px;
+	color:white;
+
+	dt{	font-family:$fontFam;
+
+		font-size:20px;
+		color:#23282f;
+		margin-bottom:25px;
+	}
+	dd{ 
+		
+		font-family:$fontFam;
+		font-size:13px;
+		margin-top:21px;
+		a{
+			color:#55595f;
+		&:hover{
+			color:#f9b474;}
+		}
+	}
+	i{	float:right	;
 	}
 }}
+
+//we started glog heading
+	.blog{
+
+		//left part
+		color:#23282f;
+		font-family:$fontFam;
+		p{	font-size:24px;
+			margin-top:24px;
+		}
+	}
+
 
 	.third{
 		width:848px;
