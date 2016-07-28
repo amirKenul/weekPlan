@@ -173,14 +173,35 @@ body {
   #midle .blog {
     color: #23282f;
     font-family: "Times New Roman"; }
-    #midle .blog p {
+    #midle .blog .lead {
       font-size: 24px;
-      margin-top: 24px; }
+      margin-top: 24px;
+      text-transform: uppercase; }
+    #midle .blog .date {
+      font-size: 15px; }
+      #midle .blog .date span {
+        color: #f7941d; }
+    #midle .blog .text {
+      width: 820px;
+      font-size: 14px;
+      font-family: "Times New Roman"; }
+    #midle .blog .list-unstyled {
+      line-height: 25px;
+      font-size: 13px;
+      margin-left: 98px;
+      color: #23282f;
+      margin-top: 60px;
+      margin-bottom: 60px;
+      text-transform: uppercase; }
+      #midle .blog .list-unstyled i {
+        margin-right: 15px;
+        color: #f8a23b; }
   #midle .third {
     width: 848px;
     height: 192px;
     background-color: #e3eef0;
-    margin-bottom: 50px; }
+    margin-bottom: 50px;
+    margin-top: 71px; }
     #midle .third img {
       width: 122px;
       height: 122px;
