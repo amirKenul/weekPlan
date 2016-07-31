@@ -45,7 +45,7 @@ body {
 
 #end {
   height: 107px;
-  border: 1px solid red;
+  border: 1px solid #e5eef0;
   line-height: 50px;
   color: #99a7ac;
   text-size: 14px;
@@ -55,7 +55,7 @@ body {
   font-family: "Times New Roman";
   padding-top: 72px;
   height: 320px;
-  border-top: 1px solid red; }
+  border-top: 1px solid #e5eef0; }
   #footer col-md-2 .img {
     float: left; }
   #footer img {
@@ -138,8 +138,7 @@ body {
     margin-right: 30px; }
 
 #midle {
-  height: 1320px;
-  background-color: pink; }
+  height: 1320px; }
   #midle .first {
     margin-top: 100px; }
     #midle .first .image {
@@ -196,6 +195,26 @@ body {
       #midle .blog .list-unstyled i {
         margin-right: 15px;
         color: #f8a23b; }
+    #midle .blog .popular {
+      margin-top: 50px;
+      font-size: 20px; }
+    #midle .blog .post {
+      margin-top: 30px; }
+  #midle .taqs {
+    margin-top: 60px; }
+    #midle .taqs h4 {
+      font-family: "Times New Roman";
+      font-size: 20px;
+      color: #23282f;
+      margin-bottom: 17px; }
+    #midle .taqs button {
+      background-color: #29c2e1;
+      color: white;
+      text-transform: uppercase;
+      padding: 10px;
+      font-family: "Times New Roman";
+      font-size: "Times New Roman";
+      border: none; }
   #midle .third {
     width: 848px;
     height: 192px;
@@ -207,6 +226,13 @@ body {
       height: 122px;
       background-color: #8d8d8d;
       margin-top: 35px; }
+  #midle .post p {
+    float: right; }
+  #midle .post .img {
+    float: left;
+    width: 67px;
+    height: 67px;
+    background-color: red; }
 
 #post {
   background-color: #8d8d8d;

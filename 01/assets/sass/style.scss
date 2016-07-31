@@ -68,6 +68,7 @@ body{
 				border-radius:30px;
 				background-color:$buttonColor;
 				text-align: center;
+				padding-top:20px;
 
 
 			}
@@ -89,7 +90,7 @@ body{
 #end{
 
 	height:107px;
-	border:1px solid red;
+	border:1px solid $borderCol;
 	line-height:50px;
 	color:$grayText;
 	text-size:14px;
@@ -104,7 +105,7 @@ body{
 	font-family:$fontFam;
 	padding-top:72px;
 	height:320px;
-	border-top: 1px solid red;
+	border-top: 1px solid $borderCol;
 	col-md-2 .img{
 		float:left;
 	}
@@ -245,7 +246,7 @@ button{
 #midle{
 
 	height:1320px;
-	background-color:pink;
+	
 	.first{
 		margin-top:100px;
 	.image{
@@ -326,8 +327,36 @@ button{
 				color:#f8a23b;
 			}
 		}
+		
+		.popular{
+			margin-top:50px;
+			font-size:20px;
+		}
+		.post{
+			margin-top:30px;
+		}
+	
 	}
+	.taqs{
+		margin-top:60px;
+		h4{
+			font-family:$fontFam;
+			font-size:20px;
+			color:$blackTectCol;
+			margin-bottom:17px;
+		}
+		button{
+			background-color:$buttonColor;
+			color:white;
+			//height:40px;
+			text-transform: uppercase;
+			padding:10px;
+			font-family:$fontFam;
+			font-size:$fontFam;
+			border:none;
+		}
 
+	}
 
 	.third{
 		width:848px;
@@ -342,6 +371,19 @@ button{
 			margin-top:35px;
 		}
 	}
+	.post {
+			p{float:right;}
+
+		.img{
+			float:left;
+			width:67px;
+			height:67px;
+			background-color:red;
+
+
+		}}
+
+
 }
 
 #post{

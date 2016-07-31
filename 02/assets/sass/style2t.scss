@@ -1,0 +1,75 @@
+$headColor:#e5eef0;
+$grayTextCol:#93a1a7;
+$buttonColor:#29c2e1;
+$grayBackground:#8d8d8d;
+$whiteText:#ffffff;
+$orangeColor:#f7941d;
+$darkcolorText:#23282f;
+$inputsColor:#23282f;
+$fontFam:"Times New Roman";
+
+//header part
+
+
+
+.row{
+	width:1140px;
+}
+
+.header{
+	background-color:$headColor;
+	height:50px;
+		div{
+			height: 50px;
+			color:$grayTextCol;
+			line-height:40px;
+			font-size:13px;
+			//padding:0px;
+			&:nth-child(2){
+				border-right: 1px solid #d8e3e6;
+
+			}
+
+			&:hover{
+				color:$buttonColor;
+			}
+		}
+}
+
+.menu{
+	padding:21px 0 21px 0;
+	background-color:yellow;
+
+	ul{
+		margin-top:5px;
+		float:right;
+		li{	
+
+			font-family:$fontFam; 
+			font-size:14.5px;
+			margin-left:35px;
+			a{
+			color:$grayTextCol;
+
+			}
+			.bold{
+
+				color:$darkcolorText;
+				}
+				
+		}
+	}
+	
+}
+		.blue a{
+				padding:15px 28px 15px 28px;
+				color:$whiteText !important;
+				border-radius:30px;
+				text-align: center;
+				background-color:$buttonColor;
+			}
+
+
+
+
+
