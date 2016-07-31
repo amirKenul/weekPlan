@@ -36,8 +36,7 @@
   text-align: center;
   background-color: #29c2e1; }
 
-.color, .contact p {
-  color: #ffffff;
+.textfamtran, .contact p, .main p, .main p span, .main .map p, .main .ikons .ikons-text {
   font-family: "Times New Roman";
   text-transform: uppercase; }
 
@@ -45,10 +44,46 @@
   height: 310px;
   background-color: #8d8d8d; }
   .contact p {
+    color: #ffffff;
     margin-top: 12%;
     font-size: 48px;
     line-height: 20px; }
     .contact p span {
       font-size: 14px; }
+
+.main p {
+  color: #23282f;
+  font-size: 30px;
+  margin-top: 85px;
+  line-height: 20px; }
+  .main p span {
+    font-size: 18px; }
+.main .map {
+  width: 1140px;
+  height: 417px;
+  background-color: #8d8d8d;
+  text-align: center; }
+  .main .map i {
+    color: #f7941d;
+    margin-left: 20px; }
+  .main .map p {
+    font-size: 30px;
+    line-height: 30px;
+    color: #ffffff;
+    margin-top: 170px; }
+.main .ikons {
+  height: 303px; }
+  .main .ikons .sircle {
+    width: 62px;
+    height: 62px;
+    border: 2px solid #29c2e1;
+    border-radius: 50%;
+    margin-top: 75px;
+    margin-left: 145px;
+    text-align: center;
+    padding: 5px; }
+  .main .ikons .ikons-text {
+    font-size: 16px;
+    margin-top: 20px; }
 
 /*# sourceMappingURL=style2t.css.map */

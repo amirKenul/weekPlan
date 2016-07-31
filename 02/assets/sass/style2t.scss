@@ -73,8 +73,7 @@ $fontFam:"Times New Roman";
 
 
 //contact us part
-.color{
-	color:$whiteText;
+.textfamtran{
 	font-family:$fontFam;
 	text-transform: uppercase;
 }
@@ -85,7 +84,8 @@ $fontFam:"Times New Roman";
 		height:310px;
 		background-color:$grayBackground;
 	p{	
-		@extend.color;
+		@extend.textfamtran;
+		color:$whiteText;
 		margin-top:12%;
 		font-size: 48px;
 		line-height:20px;
@@ -98,5 +98,63 @@ $fontFam:"Times New Roman";
 	}
 	
 } 
+
+//OUR LOCATION PART
+
+.main{
+	p{
+	 @extend.textfamtran;
+	 color:$darkcolorText;
+	 font-size:30px;
+	 margin-top:85px;
+	 line-height:20px;
+	 	span{
+	 	 @extend.textfamtran;
+	 	 font-size:18px;
+
+	 	}
+	}
+	.map{
+		
+		width:1140px;
+		height: 417px;
+		background-color:$grayBackground;
+		text-align:center;
+		
+		i{
+			color:$orangeColor;
+			margin-left:20px;
+		}
+		p{	
+			@extend.textfamtran;
+			font-size:30px;
+			line-height:30px;
+			color:$whiteText;
+			margin-top: 170px;
+
+		}
+	}
+	.ikons{
+		height:303px;
+		
+		.sircle{
+			width:62px;
+			height:62px;
+			border:2px solid $buttonColor;
+			border-radius:50%;
+			//text-align:center;
+			margin-top: 75px;
+			margin-left:145px;
+			text-align: center;
+			padding:5px;
+		}
+		.ikons-text{
+			@extend.textfamtran;
+			font-size:16px;
+			margin-top: 20px;
+
+		}
+	}
+}
 
 
