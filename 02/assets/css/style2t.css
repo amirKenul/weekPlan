@@ -36,4 +36,19 @@
   text-align: center;
   background-color: #29c2e1; }
 
+.color, .contact p {
+  color: #ffffff;
+  font-family: "Times New Roman";
+  text-transform: uppercase; }
+
+.contact {
+  height: 310px;
+  background-color: #8d8d8d; }
+  .contact p {
+    margin-top: 12%;
+    font-size: 48px;
+    line-height: 20px; }
+    .contact p span {
+      font-size: 14px; }
+
 /*# sourceMappingURL=style2t.css.map */

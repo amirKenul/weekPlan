@@ -11,7 +11,9 @@ $fontFam:"Times New Roman";
 //header part
 
 
+.container-fluid{
 
+}
 .row{
 	width:1140px;
 }
@@ -70,6 +72,31 @@ $fontFam:"Times New Roman";
 			}
 
 
+//contact us part
+.color{
+	color:$whiteText;
+	font-family:$fontFam;
+	text-transform: uppercase;
+}
 
+.contact{
+	
+		//width:1970px;//obrazuetsya scroll
+		height:310px;
+		background-color:$grayBackground;
+	p{	
+		@extend.color;
+		margin-top:12%;
+		font-size: 48px;
+		line-height:20px;
+		
+
+		span{
+			
+			font-size:14px;
+		}
+	}
+	
+} 
 
 
