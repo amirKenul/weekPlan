@@ -42,7 +42,7 @@
     color: white; }
 
 .different {
-  background-color: white !important;
+  background-color: #f4f4f4 !important;
   border: 10px solid #8d8d8d; }
   .different p {
     color: #8d8d8d !important;
