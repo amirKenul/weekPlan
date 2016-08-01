@@ -41,13 +41,13 @@
     margin-top: 30%;
     color: white; }
 
-.different {
+.different, .img:hover {
   background-color: #f4f4f4 !important;
   border: 10px solid #8d8d8d; }
-  .different p {
+  .different p, .img:hover p {
     color: #8d8d8d !important;
     margin-top: 50px; }
-  .different .dark {
+  .different .dark, .img:hover .dark {
     color: #23282f !important;
     font-size: 25px; }
 

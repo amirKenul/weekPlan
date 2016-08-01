@@ -64,6 +64,9 @@ $blackTectCol:#23282f;
 		color:white;
 		
 	}
+	&:hover{
+		@extend.different;
+	}
 }
 .different{
 	background-color:#f4f4f4!important;
@@ -80,7 +83,6 @@ $blackTectCol:#23282f;
 		font-size:25px;
 
 	}
-	
 }
 
 /*free service part*/
