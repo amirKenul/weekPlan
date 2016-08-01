@@ -74,6 +74,8 @@
   height: 35px;
   width: 143px;
   color: white; }
+  .free a:hover {
+    color: #29c2e1; }
 .free .orangeBut {
   background-color: #f69b37; }
 .free .blue {

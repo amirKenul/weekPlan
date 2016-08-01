@@ -115,6 +115,9 @@ $blackTectCol:#23282f;
 		height:35px;
 		width:143px;
 		color:white;
+		&:hover{
+			color: $buttonColor;
+		}
 	}
 	.orangeBut{
 		background-color:#f69b37;
