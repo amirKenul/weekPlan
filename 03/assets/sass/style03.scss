@@ -1,0 +1,128 @@
+$buttonColor:#29c2e1;
+$colorImag:#8d8d8d;
+$grayText:#99a7ac;
+$borderCol:#e5eef0;
+$fontFam:Times New Roman;
+$blackTectCol:#23282f;
+
+
+
+.container{
+	width:1170px;
+}
+
+.template{
+	background-color:$borderCol;
+
+	.row{
+		height:50px;
+		div{
+			height: 50px;
+			color:$grayText;
+			line-height:40px;
+			font-size:13px;
+
+			&:nth-child(2){
+				border-right: 1px solid #d8e3e6;
+				padding-left:40px;
+
+			}
+			&:hover{
+				color:$buttonColor;
+			}
+		}
+	}
+
+}
+
+/*text information about color size and uppercase*/
+.textSome{
+	text-transform:uppercase;
+	font-size:18px;
+}
+
+/*our projects*/
+.title{
+	font-size:30px;
+	text-transform:uppercase;
+	line-height:25px;
+	margin-bottom:30px;
+	span{
+		font-size:18px;
+	}
+}
+.img{
+	width:555px;
+	height:380px;
+	background-color:$colorImag;
+	float:left;
+	margin-right:30px;
+	margin-bottom:30px;
+	p{
+		@extend.textSome;
+		margin-top:30%;
+		color:white;
+		
+	}
+}
+.different{
+	background-color:white !important;
+	border:10px solid $colorImag;
+
+	p{
+		color:$colorImag !important;
+		margin-top:50px;
+
+
+	}
+	.dark{
+		color:$blackTectCol !important;
+		font-size:25px;
+
+	}
+	
+}
+
+/*free service part*/
+.textStyle{
+	text-transform: uppercase;
+	color:white;
+	font-family:$fontFam;
+	font-size:14.5px;
+}
+
+.free{
+	p{
+		color:$blackTectCol;
+		 text-transform: capitalize;
+		 font-size:30px;
+		 font-family:$fontFam;
+		 line-height:25px;
+		 margin-top:80px;
+
+		 .orange{
+		 	color:#f69b37;
+		 }
+		 .uppercase{
+		 	text-transform: uppercase;
+		 	font-size:13px;
+		 }
+
+	}
+	
+
+	a{
+		height:35px;
+		width:143px;
+		color:white;
+	}
+	.orangeBut{
+		background-color:#f69b37;
+		@extend.textStyle;
+	}
+	.blue{
+		@extend.textStyle;
+		background-color:$buttonColor;
+	}
+
+}

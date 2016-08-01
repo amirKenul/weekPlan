@@ -1,0 +1,82 @@
+.container {
+  width: 1170px; }
+
+.template {
+  background-color: #e5eef0; }
+  .template .row {
+    height: 50px; }
+    .template .row div {
+      height: 50px;
+      color: #99a7ac;
+      line-height: 40px;
+      font-size: 13px; }
+      .template .row div:nth-child(2) {
+        border-right: 1px solid #d8e3e6;
+        padding-left: 40px; }
+      .template .row div:hover {
+        color: #29c2e1; }
+
+/*text information about color size and uppercase*/
+.textSome, .img p {
+  text-transform: uppercase;
+  font-size: 18px; }
+
+/*our projects*/
+.title {
+  font-size: 30px;
+  text-transform: uppercase;
+  line-height: 25px;
+  margin-bottom: 30px; }
+  .title span {
+    font-size: 18px; }
+
+.img {
+  width: 555px;
+  height: 380px;
+  background-color: #8d8d8d;
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 30px; }
+  .img p {
+    margin-top: 30%;
+    color: white; }
+
+.different {
+  background-color: white !important;
+  border: 10px solid #8d8d8d; }
+  .different p {
+    color: #8d8d8d !important;
+    margin-top: 50px; }
+  .different .dark {
+    color: #23282f !important;
+    font-size: 25px; }
+
+/*free service part*/
+.textStyle, .free .orangeBut, .free .blue {
+  text-transform: uppercase;
+  color: white;
+  font-family: Times New Roman;
+  font-size: 14.5px; }
+
+.free p {
+  color: #23282f;
+  text-transform: capitalize;
+  font-size: 30px;
+  font-family: Times New Roman;
+  line-height: 25px;
+  margin-top: 80px; }
+  .free p .orange {
+    color: #f69b37; }
+  .free p .uppercase {
+    text-transform: uppercase;
+    font-size: 13px; }
+.free a {
+  height: 35px;
+  width: 143px;
+  color: white; }
+.free .orangeBut {
+  background-color: #f69b37; }
+.free .blue {
+  background-color: #29c2e1; }
+
+/*# sourceMappingURL=style03.css.map */
